@@ -1,0 +1,22 @@
+{
+  "name": "pysight",
+  "displayName": "Pysight - AI Bug Predictor",
+  "description": "Predicts common Python runtime errors before running code.",
+  "version": "0.0.1",
+  "publisher": "sabreen",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Linters"],
+  "activationEvents": ["onLanguage:python"],
+  "main": "./out/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.82.0",
+    "typescript": "^5.0.0"
+  }
+}
